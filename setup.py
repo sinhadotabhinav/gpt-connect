@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='gpt-connect',
-    version='0.2.0',
+    version='0.8.0',
     description='A Python wrapper for interacting with GPT models',
     long_description=open('README.md').read(),
     long_description_content_type='text/markdown',
@@ -12,7 +12,7 @@ setup(
     license='MIT',
     packages=find_packages(),
     install_requires=[
-        'openai==0.27.0',
+        'openai',
         'python-dotenv==0.19.2',
         'pyyaml==6.0'
     ],
