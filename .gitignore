@@ -1,0 +1,10 @@
+# project secrets
+.env
+# python virtual environment
+*venv/
+# build directories
+build/
+dist/
+*.egg-info/
+# internal files
+README.internal.md
