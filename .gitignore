@@ -8,3 +8,5 @@ dist/
 *.egg-info/
 # internal files
 README.internal.md
+# pycache
+__pycache__/
